@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-right: 20px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+#loginListItem a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px; 
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 120px;
+}
+
+.login-form {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+    text-align: center;
+    color: #333;
+}
+
+.login-form label {
+    display: block;
+    margin: 10px 0;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #2980b9;
+}
+
+.login-form .redirect,
+.login-form .forgot-password {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-form .redirect a,
+.login-form .forgot-password a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.login-form .redirect a:hover,
+.login-form .forgot-password a:hover {
+    text-decoration: underline;
+}
+
+.button-container {
+    text-align: center;
+}
